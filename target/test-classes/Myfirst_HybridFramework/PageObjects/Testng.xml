@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Myfirst_HybridFramework">
+
+	  <listeners>
+		<listener class-name="Myfirst_HybridFramework.Utilities.Reporting"/>
+		
+	</listeners>
+
+
+	<test name="BankingApp Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+		  	<class name="Myfirst_HybridFramework.TestCase.Test_Case_001" />
+			<class name="Myfirst_HybridFramework.TestCase.Test_Case_002" />
+			<class name="Myfirst_HybridFramework.TestCase.Test_Case_003"/>
+
+		</classes>
+
+	</test>
+
+</suite>
