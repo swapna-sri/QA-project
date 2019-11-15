@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Myfirst_HybridFramework]">
+<suite name="Failed suite [Myfirst_HybridFramework]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="Myfirst_HybridFramework.Utilities.Reporting"/>
   </listeners>
@@ -9,11 +9,18 @@
     <classes>
       <class name="Myfirst_HybridFramework.TestCase.Test_Case_002">
         <methods>
-          <include name="loginDDT" invocation-numbers="3 4"/>
+          <include name="loginDDT" invocation-numbers="0 1 2 3 4"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
       </class> <!-- Myfirst_HybridFramework.TestCase.Test_Case_002 -->
+      <class name="Myfirst_HybridFramework.TestCase.Test_Case_003">
+        <methods>
+          <include name="tearDown"/>
+          <include name="addNewCustomer"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Myfirst_HybridFramework.TestCase.Test_Case_003 -->
     </classes>
   </test> <!-- BankingApp Test(failed) -->
 </suite> <!-- Failed suite [Myfirst_HybridFramework] -->

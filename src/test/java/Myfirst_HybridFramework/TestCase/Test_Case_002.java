@@ -74,7 +74,8 @@ public class Test_Case_002 extends BaseClass
 	{
 		//String path=System.getProperty("user.dir")+"/src/test/java/Myfirst_HybridFramework.TestData/LoginData.xlsx";
 		//String path=System.getProperty("user.dir")+"/src/test/java/Myfirst_HybridFramework.TestData/LoginData.xlsx";
-		String path ="C:/Users/Swapna/eclipse-workspace/Myfirst_HybridFramework/src/test/java/Myfirst_HybridFramework/TestData/LoginData.xlsx";
+		//String path ="C:/Users/Swapna/eclipse-workspace/Myfirst_HybridFramework/src/test/java/Myfirst_HybridFramework/TestData/LoginData.xlsx";
+		  String path ="C:/eclipse-workspace/Myfirst_HybridFramework/src/test/java/Myfirst_HybridFramework/TestData/LoginData.xlsx";
 		
 		int rownum=XLUtils.getRowCount(path, "Sheet1");
 		int colcount=XLUtils.getCellCount(path,"Sheet1",1);

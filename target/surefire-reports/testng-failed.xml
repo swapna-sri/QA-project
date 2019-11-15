@@ -7,6 +7,13 @@
   <test thread-count="5" name="BankingApp Test(failed)" verbose="0">
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="Myfirst_HybridFramework.TestCase.Test_Case_003">
+        <methods>
+          <include name="tearDown"/>
+          <include name="addNewCustomer"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Myfirst_HybridFramework.TestCase.Test_Case_003 -->
       <class name="Myfirst_HybridFramework.TestCase.Test_Case_002">
         <methods>
           <include name="loginDDT"/>
