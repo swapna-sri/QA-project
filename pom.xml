@@ -35,7 +35,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<!-- TestNG suite XML files -->
-						<suiteXmlFilesrc\test\java\Myfirst_HybridFramework\PageObjects\testng.xml</suiteXmlFile>
+						<suiteXmlFile>src\test\java\Myfirst_HybridFramework\PageObjects\testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
