@@ -11,6 +11,6 @@ public class App
     {
     	//Comment
         System.out.println( "Hello World,how are you!" );
-          System.out.println( "Hello World,how are you!" );
+          
     }
 }
